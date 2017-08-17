@@ -57,7 +57,7 @@ h1 {
 	-moz-transform: perspective( 600px ) rotateY( 0deg ); 
 	-o-transform: perspective( 600px ) rotateY( 0deg ); 
 	transform: perspective( 600px ) rotateY( 0deg );  /* 600px gives it a nice perspective, a lower # will seem warped */
-	background: url(amethyst_image.jpg); width: 115px; height: 115px; border-radius: 7px;
+	background: url(../img/amethyst_image.jpg); width: 115px; height: 115px; border-radius: 7px;
 	backface-visibility: hidden;  /* can't see the back side of elements as they turn */
 	z-index: 1;
 }
@@ -125,7 +125,7 @@ h1 {
    
 @-webkit-keyframes flash_color {  
     0% { opacity: 1; background: yellow; }
-	25$ { opacity: 0.5; background: blue: }
+	25% { opacity: 0.5; background: blue; }
 	50% { opacity: 1; background: red; }
 	75% { opacity: 0.5; background: green; }
 	100% { opacity: 1; background: white; }
@@ -134,7 +134,7 @@ h1 {
 		
 @keyframes flash_color {     
 	0% { opacity: 1; background: yellow; }
-	25$ { opacity: 0.5; background: blue: }
+	25% { opacity: 0.5; background: blue; }
 	50% { opacity: 1; background: red; }
 	75% { opacity: 0.5; background: green; }
 	100% { opacity: 1; background: white; }
@@ -143,7 +143,7 @@ h1 {
 	   
 @-webkit-keyframes flash {  
 	0% { opacity: 1; color: blue; }
-	25$ { opacity: 0.5; color: red; }
+	25% { opacity: 0.5; color: red; }
 	50% { opacity: 1; color: green; }
 	75% { opacity: 0.5; color: fuchsia; }
 	100% { opacity: 1; color: purple; }
@@ -152,7 +152,7 @@ h1 {
 	
 @keyframes flash {     
 	0% { opacity: 1; color: blue; }
-	25$ { opacity: 0.5; color: red; }
+	25% { opacity: 0.5; color: red; }
 	50% { opacity: 1; color: green; }
 	75% { opacity: 0.5; color: fuchsia; }
 	100% { opacity: 1; color: purple; }
