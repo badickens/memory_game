@@ -85,36 +85,41 @@ h1 {
 
 .show #winner_container #memory_board { 
     position: absolute;
-    width: 800px;
+	width: 800px;
     height: 150px;
 	margin: 250px auto;
 	z-index: 10;
 }
 
 
-.hide#winner_container { 
+.hide #winner_container { 
     position: absolute;
-	top: 295px;
+	top: 100px;
 	left: 160px;
     width: 800px;
     height: 150px;
 	margin: 50px auto;
 	z-index: 10;
 	visibility: hidden;
+	transform: translateY(100px);
 }
 
 
 #winner_container {
+    position: relative;
     animation: flash_color linear 5s infinite;
+	transform: translateY(100px);
 }
 
 
 #winner {
+    
    	font-size: 72px;
     padding-top: 10px;
 	margin: auto;
     text-align: center;
 	z-index: 20;
+	transition: transform 5s linear 0.1s;
 }	
 
 
