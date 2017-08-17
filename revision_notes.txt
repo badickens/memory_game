@@ -1,0 +1,23 @@
+******************revision history**************************
+memoryGame_v000.html, 
+memoryGame_v001.html,
+memoryGame_v002.html, 12/18/14 - 
+memoryGame_v003.html,
+memoryGame_v004.html - went back to v002 to use a better way to add transition for turning cards (tiles)
+memoryGame_v005.html
+memoryGame_v006.html - got flipping cards working, remaining functions to go...
+memoryGame_v007.html - add main feature to match cards
+memoryGame_v008.html - added proper count of matching cards, pending function to automatically flip back non-matching cards, 
+                       and proper restart with board is completely solved.
+memoryGame_v009.html - Need to fix issues with timing- periodically unmatched cards don't flip to back. premature winning of 
+                       game, probably issue with counting the tiles_flipped.
+memoryGame_v010.html - working on winner banner to show and hide
+memoryGame_v011.html - added method to show banner when game is solved. Removed old methods. Bug list: remove method to 
+                       flipCardBack on click, fix bug that causes game to show
+                       a win prematurely.
+memoryGame_v012.html - Bug list: fix bug that causes game to show a win prematurely. Winner banner does not align with 
+                       game board outline.	
+memoryGame_v013.html - Bug list: still fix bug that causes game to show a win prematurely. Winner banner does not align with 
+                       game board outline.
+memoryGame_v014.html - Added gate to only allow two cards to flip at a time. Bug List: Should remove access to flipCardBack(). 
+                       Winner banner still does not appear in middle of game board, Appears below it instead.				   
